@@ -1,1 +1,1 @@
-https://pushparajbadu.com.np
+https://przbadu.github.io
