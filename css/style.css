@@ -58,13 +58,23 @@ body {
 .content .intro {
   margin-left: 30px;
 }
+.content .intro .blog {
+  margin-bottom: 10px;
+}
+.content .intro .blog a {
+  color: tomato;
+  padding: 10px;
+}
+.content .intro .intro-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .content .intro .name {
   text-transform: uppercase;
-  background-color: #666;
+  background-color: #ddd;
   padding: 10px;
-  width: 100px;
   border-radius: 10px;
-  color: white;
   font-size: 12px;
   margin-bottom: 20px;
 }
@@ -75,6 +85,12 @@ body {
   margin-bottom: 30px;
 }
 .content .intro .short-intro {
+  margin-bottom: 20px;
+}
+.social {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 .social p {
