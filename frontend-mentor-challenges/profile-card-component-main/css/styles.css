@@ -7,10 +7,9 @@
 }
 
 body {
+  overflow: hidden;
+  background: url(../images/bg-pattern-top.svg) top -28vh left -3.4vw no-repeat, url(../images/bg-pattern-bottom.svg) bottom -28vh right -3.4vw no-repeat;
   background-color: #19a2ae;
-  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
-  background-position: top left, bottom right;
-  background-repeat: no-repeat;
   height: 100%;
   width: 100%;
 }
@@ -35,6 +34,17 @@ body {
 
 .attribution a {
   color: #19a2ae;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    background: url(../images/bg-pattern-top.svg) top -50vh left -96vh no-repeat, url(../images/bg-pattern-bottom.svg) bottom -67vh right -80vh no-repeat;
+    background-color: #19a2ae;
+  }
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .card {
